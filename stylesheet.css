@@ -1,7 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+.hideme
+{
+    opacity:0;
+}
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
