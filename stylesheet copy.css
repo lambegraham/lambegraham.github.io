@@ -1,6 +1,20 @@
 /* --- ELEMENTS --- */
 :root {
-  --main-color: rgb(45,220,253);
+  --main-color: #2ddcfd;
+}
+
+/* --- GLOBALS --- */
+a, li, p, span {
+  font-family: Poppins, sans-serif;
+  color: #646464;
+  margin: 0;
+  font-weight:300
+}
+
+h1, h2, h2 span, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  color:#1d2124
 }
 
 /* --- CLASSES --- */
@@ -20,13 +34,13 @@
 
 /* --- ID's --- */
 
+
 #landing {
   text-align: center;
-  background: rgb(34,147,195);
   background: url(content/landing-swoosh.svg), linear-gradient(0deg, #2293c3 0%, rgba(45,242,253,1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   padding-top: 100px;
 }
 
@@ -36,6 +50,7 @@
 
 #about {
   text-align: left;
+  font-size: 25px;
 }
 
 #about span {
@@ -45,5 +60,7 @@
 
 #about h2 {
   font-size: 40px;
+  padding-bottom: 25px;
+  padding-top: ;
 }
 
