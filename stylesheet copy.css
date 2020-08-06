@@ -37,10 +37,6 @@ h1, h2, h2 span, h3, h4, h5, h6 {
 
 #landing {
   text-align: center;
-  background: url(content/landing-swoosh.svg), linear-gradient(0deg, #2293c3 0%, rgba(45,242,253,1) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   padding-top: 100px;
 }
 
