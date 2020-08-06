@@ -1,0 +1,23 @@
+.hideme
+{
+    opacity:0;
+}
+
+/* --- CLASSES --- */
+.landingclass {
+  padding-top: 100px;
+  text-align: center;
+  background: rgb(34,147,195);
+  background: url(content/landing-swoosh.svg), linear-gradient(0deg, #2293c3 0%, rgba(45,242,253,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.landingclass h1 {
+  padding-top: 50px;
+}
+
+.fadein {
+  display: none;
+}
