@@ -16,5 +16,6 @@ $(document).ready(function () {
             }
         });
     });
-    $('.fadein').fadeIn(3000);
+    // Fade in text with class 'fadein'
+    $('.fadein').fadeTo(3000,1);
 });

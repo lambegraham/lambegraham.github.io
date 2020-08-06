@@ -1,11 +1,27 @@
-.hideme
-{
-    opacity:0;
+/* --- ELEMENTS --- */
+:root {
+  --main-color: rgb(45,220,253);
 }
 
 /* --- CLASSES --- */
-.landingclass {
+
+.fadein {
+  opacity: 0;
+}
+
+.hideme
+{
+  opacity: 0;
+}
+
+.section {
   padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* --- ID's --- */
+
+#landing {
   text-align: center;
   background: rgb(34,147,195);
   background: url(content/landing-swoosh.svg), linear-gradient(0deg, #2293c3 0%, rgba(45,242,253,1) 100%);
@@ -14,10 +30,20 @@
   background-position: top;
 }
 
-.landingclass h1 {
+#landing h1 {
   padding-top: 50px;
 }
 
-.fadein {
-  display: none;
+#about {
+  text-align: left;
 }
+
+#about span {
+  color: var(--main-color);
+  font-size: 40px;
+}
+
+#about h2 {
+  font-size: 40px;
+}
+
