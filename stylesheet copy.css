@@ -4,11 +4,12 @@
 }
 
 /* --- GLOBALS --- */
+
 a, li, p, span {
   font-family: sans-serif;
   color: #646464;
   margin: 0;
-  font-weight:300
+  font-weight:300;
 }
 
 h1, h2, h2 span, h3, h4, h5, h6 {
@@ -17,7 +18,16 @@ h1, h2, h2 span, h3, h4, h5, h6 {
   color:#1d2124;
   font-weight:300;
 }
+h2 span {
+  color: var(--main-color);
+  font-size: 40px;
+}
 
+h2 {
+  font-size: 40px;
+  padding-bottom: 25px;
+  font-weight:300
+}
 /* --- CLASSES --- */
 
 .fadein {
@@ -33,6 +43,10 @@ h1, h2, h2 span, h3, h4, h5, h6 {
   padding-bottom: 100px;
 }
 
+.languages {
+  text-align: center;
+}
+
 /* --- ID's --- */
 
 #landing {
@@ -45,22 +59,10 @@ h1, h2, h2 span, h3, h4, h5, h6 {
 }
 
 #landing h1 {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 #about {
   text-align: left;
   font-size: 25px;
 }
-
-#about span {
-  color: var(--main-color);
-  font-size: 40px;
-}
-
-#about h2 {
-  font-size: 40px;
-  padding-bottom: 25px;
-  font-weight:300
-}
-
