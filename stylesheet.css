@@ -2,17 +2,15 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
- /* background by SVGBackgrounds.com */
+/* background by SVGBackgrounds.com */
 
-.hideme
-{
-    opacity:0;
+.hideme {
+  opacity: 0;
 }
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-
 }
 
 .icons {
@@ -36,7 +34,6 @@ body {
 .carousel-item {
   height: 32rem;
   background-color: #343a40;
-  
 }
 .carousel-item > img {
   position: absolute;
@@ -44,7 +41,6 @@ body {
   left: 0;
   min-width: 100%;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -58,8 +54,8 @@ body {
   font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 /* Featurettes
@@ -73,9 +69,8 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -97,4 +92,8 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.fadein {
+  opacity: 0;
 }
